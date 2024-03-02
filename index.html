@@ -1,69 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
 
     <!-- box icons-->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
-    <!-- custom icon -->
-    <link rel="stylesheet" href="style.css">
 </head>
-
-<body id="clicked">
-
-    <!-- header design-->
-    <header class="header">
-        <a href="#" class="logo">Portfolio</a>
-
-        <a href="#clicked" class="showNav on"></a>
-        <a href="#" class="showNav off"></a>
-
-        <nav class="navbar">
-            <a href="home" target="_blank">Home</a>
-            <a href="contact" target="_blank">Contact</a>
-            <a href="project" target="_blank">Project</a>
-            <a href="video Demo" target="_blank">Video Demo</a>
-            <a href="site Report" target="_blank">Site Report</a>
-
-        </nav>
-
+<body>
+    <header>
+    
     </header>
 
-    <!-- home section design-->
-    <section class="home" id="home">
-        <div class="home-content">
-            <h3>Hello, it's Me</h3>
-            <h1>Francis Odudimu-O</h1>
-            <h3>And I'm a <span> Web Developer</span></h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia sint officiis consequatur nisi eum</p>
+    <nav class="navbar">
+        <a href="#" class="logo">Portfolio</a>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="project.html">Project</a></li>
+            <li><a href="videoDemo.html">Video Demo</a></li>
+            <li><a href="sitereport.html">Site Report</a></li>
 
-            <div class="social-media">
-                <a href="#"><box-icon type='logo' name='facebook'></box-icon></a>
-                <a href="#"><box-icon name='twitter' type='logo'></box-icon></a>
-                <a href="#"><box-icon name='linkedin' type='logo'></box-icon></a>
-                <a href="#"><box-icon name='instagram' type='logo'></box-icon></a>
-            </div>
-            <a href="#" class="btn">Download CV</a>
-        </div>
-
-        <div class="home-img">
-            <img src="media\profile_photo.jpg"  alt="">
-        </div>
-    </section>
+        </ul>
+    </nav>
 
     <main>
+        <section class="my" id="my">
+            <div class="my-content">
+                <h3>Hello, it's Me</h3>
+                <h1>Francis Odudimu</h1>
+                <h3>And I'm a <span> Web Developer</span></h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia sint officiis consequatur nisi eum....</p>
+            </div>           
+                
+            <a href="#" class="btn">Download CV</a>
+
+            <div class="my-img">
+                <img src="media\profile_photo.jpg"  alt="">
+            </div>
+
+        </section>
 
 
     </main>
 
+
     <footer>
         <p>&copy; Francis Odudimu 2024</p>
     </footer>
-
 </body>
-
 </html>
