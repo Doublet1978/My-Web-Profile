@@ -6,25 +6,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+
+    <!-- box icons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
 </head>
 
 <body>
     <header>
-        <h1>Contact</h1>
+
     </header>
 
-    <nav>
+    <nav class="navbar">
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <a href="#" class="logo">Portfolio</a>
+
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="contact.html"class="active">Contact</a></li>
-            <li><a href="project.html">Project</a></li>
-            <li><a href="videoDemo.html">Video Demo</a></li>
-            <li><a href="sitereport.html">Site Report</a></li>
+            <li><a href="#index.html">Home</a></li>
+            <li><a href="#contact.html" class="active">Contact</a></li>
+            <li><a href="#project.html">Project</a></li>
+            <li><a href="#videoDemo.html">Video Demo</a></li>
+            <li><a href="#sitereport.html">Site Report</a></li>
 
         </ul>
     </nav>
 
     <main>
+        <section class="contact" id="contact">
+
+            <div class="about content">
+
+                <h2 class="section__title">
+                    Get in touch <br>
+                    About Your Project
+                </h2>
+               
+
+            </div>
+            <div class="contact__page contact-grid">
+                <form action="" class="contact__form grid" id="contact-form">
+
+                    <div class="contact__box">
+                        <input type="text" name="user_name" id="" required placeholder="Write your name"
+                            class="contact__input">
+                        <label for="name" class="contact__label">First Name</label>
+                    </div>name
+
+                    <div class="contact__box">
+                        <input type="email" name="user_email" id="email" required placeholder="Write your email"
+                            class="contact__input">
+                        <label for="email" class="contact__label">Email Address</label>
+                    </div>
+
+                    <div class="contact__box contact__area">
+                        <textarea name="user_message" id="message" required placeholder="Write your message" cols="30"
+                            rows="10"></textarea>class="contact__input">
+                        <label for="message" class="contact__label">message</label>
+                    </div>
+                    <p class="contact__message" id="contact-message">Message</p>
+
+                    <button type="submit" class="contact__send button"></button>
+                </form>
+
+            </div>
+
+
+
+
+        </section>
+
 
     </main>
 

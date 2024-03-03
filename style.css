@@ -87,7 +87,7 @@ li:last-child {
 navbar {
     font-size: 1.7em;
     color: var(--text-color);
-    margin-left: 4em;
+    margin-left: 3em;
     transition: 0.5ms;
 
 }
@@ -115,7 +115,7 @@ section {
     color: var(--text-color);
     font-weight: 600;
     cursor: default;
-    margin-left: 7em;
+    margin-left: 5em;
 
 }
 
@@ -132,6 +132,14 @@ section {
 
 }
 
+.my-content h3:nth-of-type(2) {
+    margin-bottom: 2rem;
+}
+
+span {
+    color: var(--main-color)
+}
+
 .my-content h1 {
     font-size: 5.6em;
     font-weight: 700;
@@ -144,9 +152,16 @@ section {
 }
 
 .my-img img {
+    width: 250px;
+    height: 250px;
+    background-color: var(--bg-color3);
+    border: 8px solid var(--main-color);
+    border-radius: 2rem;
+    display: grid;
+    place-items: center;
+    transition: background-color .4s;
 
-    width: 25em;
-    height: 25em;
+
 }
 
 .social-media a {
@@ -172,7 +187,7 @@ section {
 }
 
 footer {
-    background-color: var(--bg-color3);
+    background-color: var(--bg-color2);
     color: #ffffff;
     grid-area: footer;
     margin: .5em;
@@ -182,8 +197,64 @@ footer {
 }
 
 .menu-icon {
-    font-size: 3.6;
+    font-size: 4.6;
     color: var(--text-color);
     display: none;
 
 }
+
+.btn {
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: var(--main-color);
+    border-radius: 4rem;
+    box-shadow: 0 0 1rem var(--bg-color2);
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    transition: 0.5s ease;
+
+}
+
+.btn:hover {
+    box-shadow: none;
+}
+
+.contact__container {
+    padding-bottom: 4rem;
+
+
+}
+
+.contact__button {
+    justify-self: center;
+}
+/*.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background: var(--bg-color2);
+
+
+}
+
+.heading {
+    text-align: center;
+    font-size: 4.5rem;
+}
+
+.about-content h2 {
+    text-align: right;
+    line-height: 1.2;
+
+}
+
+.about-content h3 {
+    font-size: 2.6rem;
+}
+
+.about-content p {
+    font-size: 1.6rem;
+    margin: 2rem 0 3rem;
+
+}*/
