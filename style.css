@@ -19,7 +19,7 @@
     --bg-color2: #323946;
     --bg-color3: #9acd32;
     --text-color: #fff;
-    --main-color: #0ef;
+    --main-color: rgb(0, 162, 255);
 
 }
 
@@ -130,7 +130,6 @@ main {
 }
 
 section {
-
     min-height: 87vh;
     padding: 10em 15% 2em;
 
@@ -231,15 +230,6 @@ span {
     box-shadow: 0 0 2rem var(--main-color);
 }
 
-footer {
-    background-color: var(--bg-color2);
-    color: #ffffff;
-    grid-area: footer;
-    margin: .5em;
-    font-size: 2em;
-    padding-top: 0.3em;
-
-}
 
 .menu-icon {
     font-size: 4.6em;
@@ -342,3 +332,13 @@ footer {
     margin: 2rem 0 3rem;
 
 }*/
+
+footer {
+    background-color: var(--bg-color2);
+    color: #ffffff;
+    grid-area: footer;
+    margin: .5em;
+    font-size: 2em;
+    padding-top: 0.3em;
+
+}
