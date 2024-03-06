@@ -11,13 +11,14 @@
     font-family: "Marko One", serif;
     font-style: normal;
 
-
 }
 
+/* root=color references used */
 :root {
     --bg-color: #1f242d;
     --bg-color2: #323946;
     --bg-color3: #9acd32;
+    --bg-color4: #213236;
     --text-color: #fff;
     --main-color: rgb(0, 162, 255);
 
@@ -28,6 +29,63 @@ html {
     overflow-x: hidden;
 }
 
+.background {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    width: 100%;
+    justify-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+
+}
+
+.background p {
+    font-size: 2.5em;
+    color:var(--bg-color4);
+    
+
+}
+
+.background p:nth-child(odd) {
+    animation: moveUp 15s infinite linear;
+
+}
+
+.background p:nth-child(even) {
+    animation: moveDown 15s infinite linear;
+
+}
+
+@keyframes moveUp {
+
+    0% {
+        transform: translate(0, -50vh);
+
+    }
+
+    100% {
+        transform: translate(0, 10vh);
+
+    }
+
+}
+
+@keyframes moveDown {
+
+    0% {
+        transform: translate(0, 10vh);
+
+    }
+
+    100% {
+        transform: translate(0, -50vh);
+
+    }
+
+}
+
 body {
     background-color: var(--bg-color);
     color: var(--text-color);
@@ -35,10 +93,11 @@ body {
 
 header {
     display: grid;
-    background-color: #9acd32;
+    background-color: var(--bg-color3);
 }
+
 h1 {
-    color: #fff;
+    color: var(--text-color);
 
 }
 
@@ -80,7 +139,7 @@ nav>ul>li:hover ul {
 
 nav ul ul li:hover {
     background-color: var(--bg-color3);
-   
+
 
 }
 
@@ -167,15 +226,15 @@ span {
 }
 
 .my-img img {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     background-color: var(--bg-color3);
     border: 15px solid var(--main-color);
-    border-radius: 125rem;
+    border-radius: 120rem;
     display: grid;
     place-items: center;
     animation: floatImage 4s ease-in-out infinite;
-    transition: background-color .4s;
+    transition: .4s;
 
 
 }
@@ -186,11 +245,13 @@ span {
         transform: translateY(0);
 
     }
+
     50% {
         transform: translateY(-2.4em);
 
 
     }
+
     100% {
         transform: translateY(0);
 
@@ -288,7 +349,7 @@ span {
 .contact form .btn {
     margin-top: 2em;
     cursor: pointer;
-     
+
 }
 
 
@@ -298,6 +359,7 @@ footer {
     grid-area: footer;
     margin: .5em;
     font-size: 2em;
-    padding-top: 0.3em;
+    padding-top: .3em;
+    padding-bottom: 1rem;
 
 }
