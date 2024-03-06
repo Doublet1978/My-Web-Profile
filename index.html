@@ -6,52 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Portfolio Website</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="main.css" media="screen">
+    <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 800px)">
+    <link rel="stylesheet" href="desktop.css" media="screen and (min-width: 800px)">
 
     <!-- box icons-->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
-<body>
+<body id="clicked">
     <header>
+        <a href="#clicked" class="showNav on"></a>
+        <a href="#" class="showNav off"></a>
 
     </header>
 
     <nav class="navbar">
-        <i class='bx bx-menu' id="menu-icon"></i>
-        <a href="#" class="logo">F.O</a>
-
-
+       
         <ul>
-            <li><a href="#index.html" class="active">Home</a>
-                <ul>
-                    <li>About</li>
-                    <li>Portfolio</li>
-                </ul>
-            </li>
-            <li><a href="#contact.html">Contact</a>
-                <ul>
-                    <li>Submenu item 1.1</li>
-                    <li>Submenu item 1.2</li>
-                </ul>
-            </li>
-            <li><a href="#project.html">Project</a>
-                <ul>
-                    <li>Submenu item 1.1</li>
-                    <li>Submenu item 1.2</li>
-                </ul>
-            </li>
-            <li><a href="#videoDemo.html">Video Demo</a>
-                <ul>
-                    <li>Submenu item 1.1</li>
-                    <li>Submenu item 1.2</li>
-                </ul>
-            </li>
-            <li><a href="#sitereport.html">Site Report</a>
-                <ul>
-                    <li>Submenu item 1.1</li>
-                    <li>Submenu item 1.2</li>
-                </ul>
-            </li>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="contact.html" target="_blank">Contact</a></li>
+            <li><a href="project.html" target="_blank">Project</a></li>
+            <li><a href="videoDemo.html" target="_blank">Video Demo</a></li>
+            <li><a href="sitereport.html" target="_blank">Site Report</a></li>
 
         </ul>
     </nav>

@@ -28,20 +28,19 @@ html {
     overflow-x: hidden;
 }
 
-
 body {
     background-color: var(--bg-color);
     color: var(--text-color);
-    display: grid;
-    grid-template-columns: 60% 40%;
-    grid-template-rows: auto;
-    grid-template-areas:
-        "nav nav"
-        "main main"
-        "footer footer";
-
 }
 
+header {
+    display: grid;
+    background-color: #9acd32;
+}
+h1 {
+    color: #fff;
+
+}
 
 nav {
     display: flex;
@@ -57,7 +56,6 @@ nav {
 
 nav ul {
     list-style: none;
-    display: flex;
     justify-content: space-between;
     font-size: 1.5em;
 }
@@ -86,8 +84,6 @@ nav ul ul li:hover {
 
 }
 
-
-
 nav li {
     padding-right: 1em;
     padding-left: 2em;
@@ -98,7 +94,6 @@ li:last-child {
 }
 
 .navbar {
-    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -144,12 +139,7 @@ section {
 
 }
 
-.my {
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
-}
 
 .my-content h3 {
     font-size: 3.2em;
@@ -212,8 +202,8 @@ span {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 4em;
-    height: 4em;
+    width: 2.5em;
+    height: 2.5em;
     background: transparent;
     border: .2rem solid var(--main-color);
     border-radius: 50%;
@@ -301,37 +291,6 @@ span {
      
 }
 
-
-/*.about {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-    background: var(--bg-color2);
-
-
-}
-
-.heading {
-    text-align: center;
-    font-size: 4.5rem;
-}
-
-.about-content h2 {
-    text-align: right;
-    line-height: 1.2;
-
-}
-
-.about-content h3 {
-    font-size: 2.6rem;
-}
-
-.about-content p {
-    font-size: 1.6rem;
-    margin: 2rem 0 3rem;
-
-}*/
 
 footer {
     background-color: var(--bg-color2);
