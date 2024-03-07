@@ -18,8 +18,8 @@ header {
     grid-area: header;
     align-self: flex-end;
     height: 20px;
-  
-   
+
+
 }
 
 nav {
@@ -35,6 +35,7 @@ nav {
     height: 10vh;
     
 
+
 }
 
 nav ul {
@@ -42,11 +43,12 @@ nav ul {
     flex-direction: column;
     align-self: self-start;
     margin-left: -3.5em;
+    
 }
 
 .navbar {
     position: relative;
-
+    
 
 }
 
@@ -80,7 +82,7 @@ nav ul {
 
 #clicked .on {
     display: block;
-    
+
 }
 
 #clicked .off {
@@ -98,4 +100,3 @@ nav ul {
 #clicked:target nav {
     display: none;
 }
-

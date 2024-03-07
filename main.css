@@ -307,14 +307,20 @@ span {
 
 }
 
+/* project css */
+
+.placeholders {
+    
+}
 
 footer {
     background-color: var(--bg-color2);
     color: #ffffff;
     grid-area: footer;
     margin: .5em;
-    font-size: 2em;
-    padding-top: .3em;
-    padding-bottom: 1rem;
+    font-size: 1em;
+    padding-top: 2.5em;
+    padding-bottom: 2rem;
+    align-content: center;
 
 }
