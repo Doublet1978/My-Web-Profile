@@ -14,8 +14,10 @@ body {
 header {
     background-color: var(--main-color);
     color: white;
-    padding: 1em;
+    padding: 2em;
     grid-area: header;
+    align-self: flex-end;
+    height: 20px;
   
    
 }
@@ -31,6 +33,7 @@ nav {
     left: 50%;
     width: 50%;
     height: 10vh;
+    
 
 }
 
@@ -43,6 +46,7 @@ nav ul {
 
 .navbar {
     position: relative;
+
 
 }
 
@@ -94,3 +98,4 @@ nav ul {
 #clicked:target nav {
     display: none;
 }
+
