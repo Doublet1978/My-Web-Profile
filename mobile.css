@@ -43,6 +43,7 @@ nav ul {
     flex-direction: column;
     align-self: self-start;
     margin-left: -3.5em;
+    background-color: var(--main-color);
     
 }
 
