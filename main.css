@@ -13,12 +13,12 @@
 
 }
 
-/* root=color references used */
+/* color references used */
 :root {
     --bg-color: #1f242d;
     --bg-color2: #323946;
     --bg-color3: #9acd32;
-    --bg-color4: #213236;
+    --bg-color4: #293a3e;
     --text-color: #fff;
     --main-color: rgb(0, 162, 255);
 
@@ -29,6 +29,7 @@ html {
     overflow-x: hidden;
 }
 
+/* keyframe for the background*/
 .background {
     display: grid;
     grid-template-columns: repeat(9, 1fr);
@@ -44,7 +45,6 @@ html {
 .background p {
     font-size: 2.5em;
     color: var(--bg-color4);
-
 
 }
 
@@ -85,6 +85,7 @@ html {
     }
 
 }
+
 
 body {
     background-color: var(--bg-color);
@@ -144,7 +145,7 @@ li:last-child {
 
 main {
     grid-area: main;
-
+    
 
 }
 
@@ -180,12 +181,13 @@ span {
 
 }
 
+/* floating the my-image*/
 .my-img img {
     width: 200px;
     height: 200px;
     background-color: var(--bg-color3);
     border: 15px solid var(--main-color);
-    border-radius: 120rem;
+    border-radius: 7em;
     display: grid;
     place-items: center;
     animation: floatImage 4s ease-in-out infinite;
@@ -213,6 +215,61 @@ span {
     }
 
 }
+
+/* hand shake the my-image*/
+.my-img img:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes shake {
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+
+}
+
 
 .social-media a {
     display: inline-flex;
@@ -288,6 +345,7 @@ footer {
     margin: 1rem auto;
     text-align: center;
     margin-bottom: 3rem;
+    padding-top: 3em;
 
 }
 
@@ -381,6 +439,7 @@ footer {
 @media screen and (max-width: 600px) {
     .column {
         width: 100%;
+ 
     }
 }
 

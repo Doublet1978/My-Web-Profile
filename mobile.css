@@ -24,15 +24,15 @@ header {
 
 nav {
     display: none;
-    background-color: #9acd32;
     align-items: center;
     width: 100%;
     z-index: 1;
-    position: fixed;
+    position: sticky;
     top: 0;
     left: 50%;
     width: 50%;
     height: 10vh;
+    z-index: 1;
     
 
 
@@ -44,12 +44,18 @@ nav ul {
     align-self: self-start;
     margin-left: -3.5em;
     background-color: var(--main-color);
+    height: 23em;
+    width: 7em;
+    padding-inline: .2em;
+    font-size: 1.5em;
+
     
 }
 
+
 .navbar {
     position: relative;
-    
+       
 
 }
 
