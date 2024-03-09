@@ -13,14 +13,14 @@
 
 }
 
-/* color references used */
+/* color references used........................................................................................... */
 :root {
     --bg-color: #1f242d;
     --bg-color2: #323946;
     --bg-color3: #9acd32;
     --bg-color4: #293a3e;
     --text-color: #fff;
-    --main-color: rgb(0, 162, 255);
+    --main-color: #00a2ff;
 
 }
 
@@ -29,7 +29,7 @@ html {
     overflow-x: hidden;
 }
 
-/* keyframe for the background*/
+/* keyframe for the background.......................................................................................... */
 .background {
     display: grid;
     grid-template-columns: repeat(9, 1fr);
@@ -181,7 +181,7 @@ span {
 
 }
 
-/* floating the my-image*/
+/* floating the my-imag.......................................................................................... e*/
 .my-img img {
     width: 200px;
     height: 200px;
@@ -216,7 +216,7 @@ span {
 
 }
 
-/* hand shake the my-image*/
+/* hand shake the my-image.......................................................................................... */
 .my-img img:hover {
     animation: shake 0.5s;
     animation-iteration-count: infinite;
@@ -317,7 +317,7 @@ span {
     box-shadow: none;
 }
 
-/* footer css */
+/* footer css......................................................................................... */
 footer {
     background-color: var(--bg-color2);
     color: #ffffff;
@@ -333,10 +333,11 @@ footer {
 
 }
 
-/* contact form */
+/* contact form......................................................................................... */
 .contact h2 {
     margin-bottom: 3rem;
     text-align: center;
+    font-size: large;
 
 }
 
@@ -345,7 +346,7 @@ footer {
     margin: 1rem auto;
     text-align: center;
     margin-bottom: 3rem;
-    padding-top: 3em;
+    margin-top: 2em;
 
 }
 
@@ -383,7 +384,7 @@ footer {
 }
 
 
-/* project css */
+/* project css......................................................................................... */
 .project {
     box-sizing: border-box;
     width: 90%;
@@ -414,7 +415,7 @@ footer {
 
 .column {
     float: left;
-    width: 25%;
+    width: 33.33%;
 
 }
 
@@ -429,7 +430,7 @@ footer {
     padding: 10px;
 }
 
-/* Responsive layout */
+/* Responsive layout.......................................................................................... */
 @media screen and (max-width: 900px) {
     .column {
         width: 50%;
@@ -467,3 +468,27 @@ footer {
     width: 100%;
 
 }
+
+/* videoDemo css...................................................................................... */
+.wrap {
+    margin: 0 auto;
+    width: 80%;
+   
+}
+
+.wrap h2 {
+    padding-top: 2em;
+    padding-left: 1em;
+    font-size: large;
+}
+
+video {
+    width: 100%;
+    padding-bottom: 1em;
+    padding-top: 6em;
+
+
+
+}
+
+
