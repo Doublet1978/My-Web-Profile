@@ -488,7 +488,37 @@ video {
     padding-top: 6em;
 
 
+}
+
+/* videoDemo css...................................................................................... */
+
+.title {
+    border: 2px solid var(--main-color);
+    background-color: white;
+    color: #1f242d;
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 80%;
+    border-radius: 1em;
+    padding: 2em;
+    margin-top: 2em;
+
+} 
+
+.Valid {
+    border: 2px solid var(--main-color);
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 80%;
+    border-radius: 1em;
+    padding: 2em;
+    margin-top: 2em;
+    margin-bottom: 13em;
+
 
 }
 
-
+.title h1 {
+    color: var(--bg-color2);
+    text-align: center;
+}
