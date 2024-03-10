@@ -14,6 +14,8 @@ body {
 
 nav ul {
     display: flex;
+    justify-content: center;
+    margin-left: 20em;
 
 }
 

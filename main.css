@@ -97,6 +97,8 @@ header {
     background-color: var(--main-color);
     grid-area: header;
 
+
+
 }
 
 h1 {
@@ -109,7 +111,8 @@ h1 {
 nav ul {
     list-style: none;
     justify-content: space-between;
-    font-size: 1.5em;
+    font-size: 1.6em;
+    
 }
 
 
@@ -133,7 +136,8 @@ li:last-child {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    position: fixed;
+   
 
 }
 
@@ -325,11 +329,13 @@ footer {
     margin: .5em;
     font-size: 1em;
     padding-top: 2em;
-    padding-bottom: 2rem;
+    padding-bottom: 3em;
     align-content: center;
     gap: 1em;
     width: 100%;
     height: 2em;
+
+ 
 
 }
 
@@ -342,10 +348,10 @@ footer {
 }
 
 .contact form {
-    max-width: 70rem;
-    margin: 1rem auto;
+    max-width: 70em;
+    margin: 1em auto;
     text-align: center;
-    margin-bottom: 3rem;
+    margin-bottom: 3em;
     margin-top: 2em;
 
 }
@@ -398,6 +404,7 @@ footer {
 .project h2 {
     padding-left: 1.5em;
     font-size: 1.8em;
+    margin-top: 2em;
 
 
 }
@@ -477,7 +484,7 @@ footer {
 }
 
 .wrap h2 {
-    padding-top: 2em;
+    padding-top: 4em;
     padding-left: 1em;
     font-size: large;
 }
@@ -485,12 +492,12 @@ footer {
 video {
     width: 100%;
     padding-bottom: 1em;
-    padding-top: 6em;
+    padding-top: 2em;
 
 
 }
 
-/* videoDemo css...................................................................................... */
+/* site report css...................................................................................... */
 
 .title {
     border: 2px solid var(--main-color);
@@ -498,10 +505,9 @@ video {
     color: #1f242d;
     box-sizing: border-box;
     margin: 0 auto;
-    width: 80%;
+    width: 90%;
     border-radius: 1em;
     padding: 2em;
-    margin-top: 2em;
 
 } 
 
@@ -509,16 +515,17 @@ video {
     border: 2px solid var(--main-color);
     box-sizing: border-box;
     margin: 0 auto;
-    width: 80%;
+    max-width: 90%;
     border-radius: 1em;
     padding: 2em;
     margin-top: 2em;
-    margin-bottom: 13em;
+    margin-bottom: 10em;
 
 
 }
 
-.title h1 {
-    color: var(--bg-color2);
-    text-align: center;
+.brief {
+    margin-top: 7em;
+    padding-left: 6em;
+    margin-bottom: 2em;
 }
