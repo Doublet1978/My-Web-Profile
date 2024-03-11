@@ -20,7 +20,7 @@
     --bg-color3: #9acd32;
     --bg-color4: #293a3e;
     --text-color: #ffffff;
-    --main-color: #00a2ff;
+    --main-color: #92d3a1;
     --text-color2: #000000;
 
 }
@@ -156,7 +156,7 @@ main {
 
 section {
     min-height: 87vh;
-    padding: 6em 10% 2em;
+    padding: 6.5em 10% 2em;
 
 }
 
@@ -343,7 +343,7 @@ span {
 /* footer css......................................................................................... */
 footer {
     background-color: var(--bg-color2);
-    color:var(--text-color);
+    color: var(--text-color);
     grid-area: footer;
     margin: .5em;
     font-size: 1em;
@@ -521,7 +521,7 @@ video {
 .title {
     border: 2px solid var(--main-color);
     background-color: var(--text-color);
-    color:var(--text-color2);
+    color: var(--text-color2);
     box-sizing: border-box;
     margin: 0 auto;
     width: 80%;
@@ -555,7 +555,7 @@ video {
 .ref li {
     list-style: decimal;
     word-break: break-all;
-    
+
 
 }
 
@@ -573,10 +573,9 @@ video {
 }
 
 .brief {
-     margin-bottom: 3em;
+    margin-bottom: 3em;
 }
 
 .design h2 {
     padding-top: 1em;
 }
-
