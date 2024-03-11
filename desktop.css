@@ -38,9 +38,21 @@ nav ul {
     display: none;
 }
 
+.brief h2 {
+    margin-top: 6em;
+    padding-left: 10em;
+
+}
+
+
 footer {
     position: fixed;
     bottom: 0;
     margin-bottom: 0;
     
+}
+
+.social-media {
+    margin-left: 31em ;
+
 }

@@ -19,7 +19,7 @@
     --bg-color2: #323946;
     --bg-color3: #9acd32;
     --bg-color4: #293a3e;
-    --text-color: #fff;
+    --text-color: #ffffff;
     --main-color: #00a2ff;
     --text-color2: #000000;
 
@@ -156,7 +156,7 @@ main {
 
 section {
     min-height: 87vh;
-    padding: 10em 10% 2em;
+    padding: 6em 10% 2em;
 
 }
 
@@ -188,8 +188,8 @@ span {
 
 /* floating the my-imag.......................................................................................... e*/
 .my-img img {
-    width: 200px;
-    height: 200px;
+    width: 22em;
+    height: 22em;
     background-color: var(--bg-color3);
     border: 15px solid var(--main-color);
     border-radius: 7em;
@@ -197,7 +197,7 @@ span {
     place-items: center;
     animation: floatImage 4s ease-in-out infinite;
     transition: .4s;
-
+    margin-bottom: 3em;
 
 }
 
@@ -275,6 +275,24 @@ span {
 
 }
 
+/* email css...................................................................................... */
+.email-box {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2em 0 2em;
+    padding-left: 1em;
+
+}
+
+.email-box h5 {
+    font-weight: 100;
+    color: var(--text-color);
+    font-size: 1em;
+
+
+}
+
 
 .social-media a {
     display: inline-flex;
@@ -325,7 +343,7 @@ span {
 /* footer css......................................................................................... */
 footer {
     background-color: var(--bg-color2);
-    color: #ffffff;
+    color:var(--text-color);
     grid-area: footer;
     margin: .5em;
     font-size: 1em;
@@ -336,9 +354,9 @@ footer {
     width: 100%;
     height: 2em;
 
-
-
 }
+
+
 
 /* contact form......................................................................................... */
 .contact h2 {
@@ -385,7 +403,7 @@ footer {
 }
 
 .contact form .btn {
-    margin-top: 2em;
+    margin-top: 1.5em;
     cursor: pointer;
 
 }
@@ -502,13 +520,13 @@ video {
 
 .title {
     border: 2px solid var(--main-color);
-    background-color: white;
-    color: #000000;
+    background-color: var(--text-color);
+    color:var(--text-color2);
     box-sizing: border-box;
     margin: 0 auto;
     width: 80%;
     border-radius: 1em;
-    padding: 4em;
+    padding: 2em;
     word-break: keep-all;
     font-size: 1.5em;
 
@@ -516,21 +534,14 @@ video {
 
 .title ul {
     list-style: none;
-    margin: 1em;
+    margin-top: 1em;
     padding-bottom: 2em;
-
 
 
 }
 
 .title ul li {
-    padding-top: 2em;
-}
-
-.ref li {
-    list-style: decimal;
-    word-break: break-all;
-
+    padding-top: 1.5em;
 }
 
 
@@ -538,6 +549,13 @@ video {
     color: var(--main-color);
     font-weight: bold;
     font-size: 1.5em;
+
+}
+
+.ref li {
+    list-style: decimal;
+    word-break: break-all;
+    
 
 }
 
@@ -555,11 +573,10 @@ video {
 }
 
 .brief {
-    margin-top: 8em;
-    padding-left: 9em;
-    margin-bottom: 3em;
+     margin-bottom: 3em;
 }
 
 .design h2 {
-    padding-top: 2em;
+    padding-top: 1em;
 }
+

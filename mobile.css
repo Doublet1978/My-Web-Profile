@@ -58,7 +58,13 @@ nav ul {
     flex-direction: column-reverse;
     justify-content: space-around;
     align-items: center;
+    padding-top: 0.2%;
 }
+
+.my-img {
+    padding-top: 2em;
+}
+
 
 /* create hamburger icon.........................................................................................*/
 .showNav {
@@ -108,9 +114,22 @@ video {
     padding-top: 6em;
 }
 
+.brief h2{
+    padding-left: 3em;
+    margin-top: 1.5em;
+
+}
+
+.social-media {
+    margin-left: 2.5em ;
+
+}
+
 footer {
     position: fixed;
     bottom: 0;
     margin-bottom: 0;
-    
+
 }
+
+
