@@ -33,29 +33,31 @@ html {
 /* keyframe for the background.......................................................................................... */
 .background {
     display: grid;
-    grid-template-columns: repeat(9, 1fr);
+    grid-template-columns: repeat(14, 1fr);
     width: 100%;
     justify-items: center;
     position: fixed;
     top: 0;
     left: 0;
     z-index: -1;
+    height: 100vh;
+    opacity: 0.6;
 
 }
 
 .background p {
-    font-size: 2.5em;
+    font-size: 3.5em;
     color: var(--bg-color4);
 
 }
 
 .background p:nth-child(odd) {
-    animation: moveUp 20s infinite linear;
+    animation: moveUp 15s infinite linear;
 
 }
 
 .background p:nth-child(even) {
-    animation: moveDown 20s infinite linear;
+    animation: moveDown 15s infinite linear;
 
 }
 
@@ -91,6 +93,8 @@ html {
 body {
     background-color: var(--bg-color);
     color: var(--text-color);
+    height: 100vh;
+    width: 100;
 }
 
 header {
@@ -526,7 +530,7 @@ video {
     margin: 0 auto;
     width: 80%;
     border-radius: 1em;
-    padding: 2em;
+    padding: 4em;
     word-break: keep-all;
     font-size: 1em;
 
@@ -570,16 +574,17 @@ video {
     text-align: center;
     font-size: 1.6em;
     margin-top: 2em;
-    margin-bottom: 10em;
+    margin-bottom: 2em;
 
 }
 
 .Val {
     display: block;
     margin-left: auto;
-    margin-right:auto;
+    margin-right: auto;
     width: 90%;
     padding: 0.5em;
+    
 }
 
 .brief {
