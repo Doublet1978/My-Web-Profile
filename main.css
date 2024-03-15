@@ -18,7 +18,7 @@
     --bg-color: #1f242d;
     --bg-color2: #323946;
     --bg-color3: #9acd32;
-    --bg-color4: #293a3e;
+    --bg-color4: #26383c;
     --text-color: #ffffff;
     --main-color: #92d3a1;
     --text-color2: #000000;
@@ -50,12 +50,12 @@ html {
 }
 
 .background p:nth-child(odd) {
-    animation: moveUp 15s infinite linear;
+    animation: moveUp 20s infinite linear;
 
 }
 
 .background p:nth-child(even) {
-    animation: moveDown 15s infinite linear;
+    animation: moveDown 20s infinite linear;
 
 }
 
@@ -566,9 +566,9 @@ video {
     box-sizing: border-box;
     margin: 0 auto;
     border-radius: 1em;
-    padding-top: 1em;
+    padding-top: 1.5em;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1.6em;
     margin-top: 2em;
     margin-bottom: 10em;
 
