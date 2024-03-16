@@ -94,7 +94,7 @@ body {
     background-color: var(--bg-color);
     color: var(--text-color);
     height: 100vh;
-    width: 100;
+
 }
 
 header {
@@ -584,7 +584,7 @@ video {
     margin-right: auto;
     width: 90%;
     padding: 0.5em;
-    
+
 }
 
 .brief {
